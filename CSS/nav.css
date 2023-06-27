@@ -1,0 +1,27 @@
+nav{
+    width: 100%;
+    height: auto;
+    background-color: var(--DarkPurple);
+    font-family: var(--Roboto);
+    position: fixed;
+}
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 3%;
+        flex-wrap: wrap;
+    }
+
+        .menu_items{
+            color: var(--White);
+            padding: 2rem 1rem;
+            font-size: 1.05rem;
+            transition: all 0.4s;
+        }
+
+        .menu_items:hover{
+            background-color: var(--Green);
+            color: var(--DarkPurple);
+            font-weight: 700;
+        }

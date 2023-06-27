@@ -1,0 +1,129 @@
+.intro{
+    background-color: var(--DarkPurple);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 270px 8% 270px 8%;
+}
+
+    .presentacion{
+        max-width: 60%;
+    }
+
+        .intro h1{
+            font-size: 1.5rem;
+            font-weight: 400;
+            font-family: var(--Montserrat);
+            color: var(--White);
+        }
+
+        .intro h2{
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            font-family: var(--Montserrat);
+            color: var(--Green);
+        }
+
+        .intro h3{
+            font-size: 2rem;
+            font-weight: 400;
+            font-family: var(--Roboto);
+            color: var(--White);
+            margin-bottom: 3rem;
+        }
+
+        .intro p{
+            text-align:start;
+            font-family: var(--Roboto);
+            color: var(--White);
+            font-weight: 100;
+            font-size: 1.4rem;
+            display: inline-block;
+        }
+
+    .imagen_profile{
+        max-width: 25%;
+        border-radius: 100%;
+    }
+
+.links_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-start;
+    margin-top: 3rem;
+}
+
+    .links_imagenes{
+        max-width: 3rem;
+        transition: all 0.25s;
+        border: 3px solid var(--DarkPurple);
+        border-radius: 100%;
+        padding: 4px;
+    }
+
+        .links_imagenes:hover{
+            scale: 130%;
+            border-color: var(--Green);
+        }
+
+    .links_container li{
+        margin: 0 20px;
+        color: var(--White);
+    }
+
+
+@media screen and (max-width:960px){
+    .intro{
+        padding: 150px 8%;
+    }
+    
+    .presentacion{
+        max-width: 50%;
+    }
+
+    .imagen_profile{
+        max-width: 40%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .intro{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 200px 0 100px 0;
+    }
+
+    .presentacion{
+        max-width: 100%;
+        width: 85%;
+    }
+
+        .presentacion h1{
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .presentacion h2{
+            font-size: 3.5rem;
+        }
+
+        .presentacion h3{
+            font-size: 1.5rem;
+        }
+
+        .presentacion p{
+            font-size: 1.2rem;
+            font-family: var(--Montserrat);
+        }
+
+    .imagen_profile{
+        order: -1;
+        max-width: 60%;
+    }
+
+    .links_container{
+        justify-content: center;
+    }
+}

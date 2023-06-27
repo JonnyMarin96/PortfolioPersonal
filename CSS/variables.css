@@ -1,0 +1,23 @@
+:root{
+    --Black: #262626;
+    --White: #ececec;
+    --Gray: #333333;
+    --LightPurple: #604be9;
+    --DarkPurple: #181052;
+    --DarkGreen: #19c761;
+    --Green: #26f07a;
+    --Pink: #D96055;
+
+
+
+    --Roboto: 'Roboto', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width:960px){
+    
+}
+
+@media screen and (max-width:480px){
+    
+}
